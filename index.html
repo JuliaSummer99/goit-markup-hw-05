@@ -17,16 +17,16 @@
 </head>
 
 <body>
-  <!--Навігація-->
+   <!--Навігація-->
 
   <header class="page-header">
     <div class="container header-container">
       <nav class="site-nav">
         <a href="" class="logo-nav"> <span class="web-accent">Web</span>Studio </a>
         <ul class="item-list">
-          <li class="item"> <a href="./index.html" class="current-link"> Студія </a> </li>
-          <li class="item"> <a href="./portfolio.html" class="link"> Портфоліо </a> </li>
-          <li class="item"> <a href="" class="link"> Контакти </a> </li>
+          <li class="nav-item"> <a href="./index.html" class="nav-link current"> Студія </a> </li>
+          <li class="nav-item"> <a href="./portfolio.html" class="nav-link"> Портфоліо </a> </li>
+          <li class="nav-item"> <a href="" class="nav-link"> Контакти </a> </li>
         </ul>
       </nav>
 
@@ -34,14 +34,14 @@
         <li class="step"> <a href="mailto:info@devstudio.com" class="mail-accent">
             <svg class="header-icon" width="16" height="12">
               <use href="./images/icons.svg#icon-envelope-1"> </use>
-            </svg> info@devstudio.com </a>
+            </svg>info@devstudio.com</a>
         </li>
 
         <li class="step"> <a href="tel:+380961111111" class="tel-number">
             <svg class="header-icon" width="10" height="16">
               <use href="./images/icons.svg#icon-smartphone"></use>
-            </svg> +380961111111
-          </a> </li>
+            </svg>+380961111111</a>
+        </li>
       </ul>
     </div>
   </header>
@@ -115,10 +115,20 @@
         <h2 class="section-title">Чим ми займаємося</h2>
         <ul class="work-list">
           <li class="work-item"> <a href=""> <img src="./images/img1.jpg" alt="Клавіатура" height="294" width="370">
-            </a> </li>
+            </a>
+            <div class="work-item-thumb">
+              <h3 class="work-name">Десктопні додатки</h3>
+            </div>
+          </li>
           <li class="work-item"> <a href=""> <img src="./images/img2.jpg" alt="Телефон" height="294" width="370"> </a>
+            <div class="work-item-thumb">
+              <h3 class="work-name">Мобільні додатки</h3>
+            </div>
           </li>
           <li class="work-item"> <a href=""> <img src="./images/img3.jpg" alt="Планшет" height="294" width="370"> </a>
+            <div class="work-item-thumb">
+              <h3 class="work-name">Дизайнерські рішення</h3>
+            </div>
           </li>
         </ul>
       </div>
@@ -416,7 +426,7 @@
     </div>
   </div>
 
-<script src="./js/modal.js"></script>
+  <script src="./js/modal.js"></script>
 
 </body>
 
